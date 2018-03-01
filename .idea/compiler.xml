@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="salesman-problem" />
+        <module name="salesman-problem-distances-calculator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="salesman-problem" target="1.8" />
+      <module name="salesman-problem-data" target="1.8" />
+      <module name="salesman-problem-distances-calculator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
